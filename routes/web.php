@@ -29,7 +29,7 @@ Route::get('/logout', function(){
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+//don
 Route::get('/menu/{type}', 'PostsController@mymenu');
 
 Route::get('/storemenu', 'PostsController@storemenu');
